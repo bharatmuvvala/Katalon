@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>DigiBankSG_Login_TC004_PINLengthLessThan6_ErrorValidation</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>50545506-f4dd-481d-9d72-cecda384fddc</testCaseGuid>
-</TestCaseEntity>

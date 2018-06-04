@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-JIRAIntegration,,,2018-05-31 13:41:04,2018-05-31 13:41:05,0.951s,ERROR
-,,,,,,
-Test Cases/Mobile/Login/MOBILE-1,,Summary: Customer Login\nDescription: ,2018-05-31 13:41:05,2018-05-31 13:41:05,0.298s,ERROR
-"Statement - WebUI.comment(""Feature: Customer Login"")",,,2018-05-31 13:41:05,2018-05-31 13:41:05,0.006s,PASSED

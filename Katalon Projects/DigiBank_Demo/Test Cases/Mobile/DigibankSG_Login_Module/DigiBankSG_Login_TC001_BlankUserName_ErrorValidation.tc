@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>DigiBankSG_Login_TC001_BlankUserName_ErrorValidation</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>04751b13-4291-4852-9123-4b70d5a0d573</testCaseGuid>
-</TestCaseEntity>

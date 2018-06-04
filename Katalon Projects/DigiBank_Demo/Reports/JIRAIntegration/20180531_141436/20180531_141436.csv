@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-JIRAIntegration,,,2018-05-31 14:14:39,2018-05-31 14:14:40,1.080s,ERROR
-,,,,,,
-Test Cases/Web/DIGIBANKSG-1,,Summary: Customer Login\nDescription: ,2018-05-31 14:14:39,2018-05-31 14:14:40,0.302s,ERROR
-"Statement - WebUI.comment(""Feature: Customer Login"")",,,2018-05-31 14:14:40,2018-05-31 14:14:40,0.004s,PASSED
