@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DigiBankIN_Web_Login" time="19" tests="1" failures="0" errors="0">
+   <testsuite name="DigiBankIN_Web_Login" tests="1" failures="0" errors="0" time="19" timestamp="2018-06-01 15:37:20" hostname="SRAVANIBHARAT - DESKTOP-7OG2TPC" id="Test Suites/Web/DigiBankIN_Web_Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\Katalon Projects\\DigiBank_Demo\\Reports\\Web\\DigiBankIN_Web_Login\\20180601_153717"/>
+         <property name="logFiles" value="G:\\Katalon Projects\\DigiBank_Demo\\Reports\\Web\\DigiBankIN_Web_Login\\20180601_153717\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="SRAVANIBHARAT - DESKTOP-7OG2TPC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="192.168.43.119"/>
+         <property name="sessionId" value="bb0c169e9fe10560272be8ee00bbd0a6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Web/DigiBankIN_Login_TC001_BlankUserName_ErrorValidation" classname="Test Cases/Web/DigiBankIN_Login_TC001_BlankUserName_ErrorValidation" status="PASSED">
+         <system-out><![CDATA[2018-06-01 15:37:20 - [TEST_CASE][PASSED] - Test Cases/Web/DigiBankIN_Login_TC001_BlankUserName_ErrorValidation: Test Cases/Web/DigiBankIN_Login_TC001_BlankUserName_ErrorValidation
+
+2018-06-01 15:37:20 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.dbs.com/in/personal/default.page' successfully
+
+2018-06-01 15:37:20 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-06-01 15:37:20 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): null
+
+2018-06-01 15:37:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-01 15:37:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-01 15:37:25 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.dbs.com/in/personal/default.page' successfully
+
+2018-06-01 15:37:33 - [MESSAGE][PASSED] - Navigate to 'https://www.dbs.com/in/personal/default.page' successfully
+
+2018-06-01 15:37:33 - [TEST_STEP][PASSED] - abc.newKeyword.myCustomPrint: abc.newKeyword.myCustomPrint is PASSED
+
+2018-06-01 15:37:33 - [MESSAGE][PASSED] - abc.newKeyword.myCustomPrint is PASSED
+
+2018-06-01 15:37:33 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Web/Page_Personal Banking in India  DBS/LandingPage_lnk_RootLogin' is present
+
+2018-06-01 15:37:33 - [MESSAGE][PASSED] - Object 'Object Repository/Web/Page_Personal Banking in India  DBS/LandingPage_lnk_RootLogin' is present
+
+2018-06-01 15:37:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Web/Page_Personal Banking in India  DBS/LandingPage_lnk_RootLogin' is clicked on
+
+2018-06-01 15:37:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Web/Page_Personal Banking in India  DBS/LandingPage_lnk_RootLogin' is clicked on
+
+2018-06-01 15:37:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Web/Page_Personal Banking in India  DBS/LandingPage_lnk_DigibankLogin' is clicked on
+
+2018-06-01 15:37:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Web/Page_Personal Banking in India  DBS/LandingPage_lnk_DigibankLogin' is clicked on
+
+2018-06-01 15:37:33 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'digibank Internet Banking'
+
+2018-06-01 15:37:36 - [MESSAGE][PASSED] - Switched to window with title: 'digibank Internet Banking'
+
+2018-06-01 15:37:36 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Web/Page_digibank Internet Banking/input_username' is present
+
+2018-06-01 15:37:36 - [MESSAGE][PASSED] - Object 'Object Repository/Web/Page_digibank Internet Banking/input_username' is present
+
+2018-06-01 15:37:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Web/Page_digibank Internet Banking/input_username' is clicked on
+
+2018-06-01 15:37:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Web/Page_digibank Internet Banking/input_username' is clicked on
+
+2018-06-01 15:37:37 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Web/Page_digibank Internet Banking/input_username'
+
+2018-06-01 15:37:37 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Web/Page_digibank Internet Banking/input_username'
+
+2018-06-01 15:37:37 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Web/Page_digibank Internet Banking/input_password' is present
+
+2018-06-01 15:37:37 - [MESSAGE][PASSED] - Object 'Object Repository/Web/Page_digibank Internet Banking/input_password' is present
+
+2018-06-01 15:37:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Web/Page_digibank Internet Banking/input_password' is clicked on
+
+2018-06-01 15:37:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Web/Page_digibank Internet Banking/input_password' is clicked on
+
+2018-06-01 15:37:37 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Web/Page_digibank Internet Banking/input_password'
+
+2018-06-01 15:37:38 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Web/Page_digibank Internet Banking/input_password'
+
+2018-06-01 15:37:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Web/Page_digibank Internet Banking/button_LOG IN' is clicked on
+
+2018-06-01 15:37:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Web/Page_digibank Internet Banking/button_LOG IN' is clicked on
+
+2018-06-01 15:37:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Web/Page_digibank Internet Banking/p_Invalid username' are matched.
+
+2018-06-01 15:37:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web/Page_digibank Internet Banking/p_Invalid username' are matched.
+
+2018-06-01 15:37:38 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-01 15:37:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-01 15:37:20 - [TEST_SUITE][PASSED] - DigiBankIN_Web_Login: Test Cases/Web/DigiBankIN_Login_TC001_BlankUserName_ErrorValidation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

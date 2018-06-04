@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+DigiBankSG_Login,,,2018-06-03 22:51:34,2018-06-03 22:53:55,2m - 20.458s,FAILED
+,,,,,,
+Test Cases/Mobile/DigibankSG_Login_Module/DigiBankSG_Login_TC001_BlankUserName_ErrorValidation,,,2018-06-03 22:51:35,2018-06-03 22:53:53,2m - 18.182s,FAILED
+Start listener action : sampleBeforeTestCase,,,2018-06-03 22:51:35,2018-06-03 22:51:35,0.112s,PASSED
+startApplication,,,2018-06-03 22:51:35,2018-06-03 22:53:05,1m - 29.873s,PASSED
+tap,,,2018-06-03 22:53:05,2018-06-03 22:53:11,5.641s,PASSED
+delay,,,2018-06-03 22:53:11,2018-06-03 22:53:16,5.038s,PASSED
+tap,,,2018-06-03 22:53:16,2018-06-03 22:53:53,37.088s,FAILED

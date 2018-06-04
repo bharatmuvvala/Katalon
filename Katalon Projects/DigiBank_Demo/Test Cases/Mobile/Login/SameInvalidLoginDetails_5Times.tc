@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SameInvalidLoginDetails_5Times</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f74eb2ff-1357-4c1b-8298-195d743380f0</testCaseGuid>
+   <variable>
+      <defaultValue>'mbk1234'</defaultValue>
+      <description></description>
+      <id>dda869ab-2c36-4dd6-bafa-932b0a957aad</id>
+      <masked>false</masked>
+      <name>UserName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Dbs@12345'</defaultValue>
+      <description></description>
+      <id>6ec4d10b-54fe-477a-acc8-7c631782d580</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

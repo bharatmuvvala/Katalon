@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DigiBankSG_Login" time="140" tests="0" failures="1" errors="0">
+   <testsuite name="DigiBankSG_Login" tests="0" failures="1" errors="0" time="140" timestamp="2018-06-03 22:51:34" hostname="SRAVANIBHARAT - DESKTOP-7OG2TPC" id="Test Suites/Mobile/DigiBankSG_Login">
+      <properties>
+         <property name="deviceName" value="Moto G Plus (5th Gen)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\Katalon Projects\\DigiBank_Demo\\Reports\\Mobile\\DigiBankSG_Login\\20180603_225132"/>
+         <property name="logFiles" value="G:\\Katalon Projects\\DigiBank_Demo\\Reports\\Mobile\\DigiBankSG_Login\\20180603_225132\\execution0.log"/>
+         <property name="attachments" value="G:\\Katalon Projects\\DigiBank_Demo\\Reports\\Mobile\\DigiBankSG_Login\\20180603_225132\\1528046606892.png, G:\\Katalon Projects\\DigiBank_Demo\\Reports\\Mobile\\DigiBankSG_Login\\20180603_225132\\1528046621473.png"/>
+         <property name="hostName" value="SRAVANIBHARAT - DESKTOP-7OG2TPC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.6.3"/>
+         <property name="deviceModel" value="null"/>
+         <property name="hostAddress" value="192.168.0.103"/>
+         <property name="deviceManufacturer" value="null"/>
+         <property name="deviceId" value="null"/>
+         <property name="deviceName" value="Moto G Plus (5th Gen)"/>
+         <property name="deviceOSVersion" value="7.0"/>
+      </properties>
+      <testcase name="Test Cases/Mobile/DigibankSG_Login_Module/DigiBankSG_Login_TC001_BlankUserName_ErrorValidation" classname="Test Cases/Mobile/DigibankSG_Login_Module/DigiBankSG_Login_TC001_BlankUserName_ErrorValidation" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Mobile/DigiBankSG_Landing_OR/LandingPageFirstTimeUse_img_View5' (Root cause: Object Object Repository/Mobile/DigiBankSG_Landing_OR/LandingPageFirstTimeUse_img_View5 not found)"/>
+         <system-out><![CDATA[2018-06-03 22:51:35 - [TEST_CASE][FAILED] - Test Cases/Mobile/DigibankSG_Login_Module/DigiBankSG_Login_TC001_BlankUserName_ErrorValidation: Test Cases/Mobile/DigibankSG_Login_Module/DigiBankSG_Login_TC001_BlankUserName_ErrorValidation FAILED because (of) Failed to tap on element 'Object Repository/Mobile/DigiBankSG_Landing_OR/LandingPageFirstTimeUse_img_View5' (Root cause: Object Object Repository/Mobile/DigiBankSG_Landing_OR/LandingPageFirstTimeUse_img_View5 not found)
+
+2018-06-03 22:51:35 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-06-03 22:51:35 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-06-03 22:51:35 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-06-03 22:51:35 - [TEST_STEP][PASSED] - startApplication: Started app at: 'kobiton-store:10207'
+
+2018-06-03 22:53:05 - [MESSAGE][PASSED] - Started app at: 'kobiton-store:10207'
+
+2018-06-03 22:53:05 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/DigiBankSG_Landing_OR/LandingPageFirstTimeUse_btn_SeeWhatsNew'
+
+2018-06-03 22:53:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/DigiBankSG_Landing_OR/LandingPageFirstTimeUse_btn_SeeWhatsNew'
+
+2018-06-03 22:53:11 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-03 22:53:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-03 22:53:16 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Mobile/DigiBankSG_Landing_OR/LandingPageFirstTimeUse_img_View5' (Root cause: Object Object Repository/Mobile/DigiBankSG_Landing_OR/LandingPageFirstTimeUse_img_View5 not found)
+
+2018-06-03 22:53:41 - [MESSAGE][FAILED] - Object Object Repository/Mobile/DigiBankSG_Landing_OR/LandingPageFirstTimeUse_img_View5 not found
+[[ATTACHMENT|G:\\Katalon Projects\\DigiBank_Demo\\Reports\\Mobile\\DigiBankSG_Login\\20180603_225132\\1528046606892.png]]
+
+2018-06-03 22:53:53 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Mobile/DigiBankSG_Landing_OR/LandingPageFirstTimeUse_img_View5' (Root cause: Object Object Repository/Mobile/DigiBankSG_Landing_OR/LandingPageFirstTimeUse_img_View5 not found)
+[[ATTACHMENT|G:\\Katalon Projects\\DigiBank_Demo\\Reports\\Mobile\\DigiBankSG_Login\\20180603_225132\\1528046621473.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-03 22:51:35 - [TEST_CASE][FAILED] - Test Cases/Mobile/DigibankSG_Login_Module/DigiBankSG_Login_TC001_BlankUserName_ErrorValidation: Test Cases/Mobile/DigibankSG_Login_Module/DigiBankSG_Login_TC001_BlankUserName_ErrorValidation FAILED because (of) Failed to tap on element 'Object Repository/Mobile/DigiBankSG_Landing_OR/LandingPageFirstTimeUse_img_View5' (Root cause: Object Object Repository/Mobile/DigiBankSG_Landing_OR/LandingPageFirstTimeUse_img_View5 not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-03 22:51:34 - [TEST_SUITE][FAILED] - DigiBankSG_Login: Test Cases/Mobile/DigibankSG_Login_Module/DigiBankSG_Login_TC001_BlankUserName_ErrorValidation FAILED because (of) Failed to tap on element 'Object Repository/Mobile/DigiBankSG_Landing_OR/LandingPageFirstTimeUse_img_View5' (Root cause: Object Object Repository/Mobile/DigiBankSG_Landing_OR/LandingPageFirstTimeUse_img_View5 not found)]]></system-out>
+      <system-err><![CDATA[2018-06-03 22:51:34 - [TEST_SUITE][FAILED] - DigiBankSG_Login: Test Cases/Mobile/DigibankSG_Login_Module/DigiBankSG_Login_TC001_BlankUserName_ErrorValidation FAILED because (of) Failed to tap on element 'Object Repository/Mobile/DigiBankSG_Landing_OR/LandingPageFirstTimeUse_img_View5' (Root cause: Object Object Repository/Mobile/DigiBankSG_Landing_OR/LandingPageFirstTimeUse_img_View5 not found)]]></system-err>
+   </testsuite>
+</testsuites>

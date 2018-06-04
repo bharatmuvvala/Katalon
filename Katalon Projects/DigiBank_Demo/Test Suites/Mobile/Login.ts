@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Login</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>2df20fc8-0435-4f6d-94ad-d657596ce1ff</testSuiteGuid>
+   <testCaseLink>
+      <guid>0a7d6cf2-97fc-45ca-9872-5b96f1b41882</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile/Login/InvalidLoginDetails_Negative</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b7835944-653a-4ce2-bba1-1e93ff474b3b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DigiBankSG_TestData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>b7835944-653a-4ce2-bba1-1e93ff474b3b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>UserName</value>
+         <variableId>f1f73bd5-6fab-41d0-b2fa-8886f1bc4c4e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b7835944-653a-4ce2-bba1-1e93ff474b3b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>6594f9f2-cf41-4a12-a9be-fee9f75c00b2</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

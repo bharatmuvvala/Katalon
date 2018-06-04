@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="JIRAIntegration" time="1" tests="0" failures="0" errors="1">
+   <testsuite name="JIRAIntegration" tests="0" failures="0" errors="1" time="1" timestamp="2018-05-31 14:14:39" hostname="SRAVANIBHARAT - DESKTOP-7OG2TPC" id="Test Suites/JIRAIntegration">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\Katalon Projects\\DigiBank_Demo\\Reports\\JIRAIntegration\\20180531_141436"/>
+         <property name="logFiles" value="G:\\Katalon Projects\\DigiBank_Demo\\Reports\\JIRAIntegration\\20180531_141436\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="SRAVANIBHARAT - DESKTOP-7OG2TPC"/>
+         <property name="hostAddress" value="192.168.43.119"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Web/DIGIBANKSG-1" classname="Test Cases/Web/DIGIBANKSG-1" status="ERROR">
+         <error type="ERROR" message="Test Cases/Web/DIGIBANKSG-1 FAILED because (of) Variable 'WebUI' is not defined for test case."/>
+         <system-out><![CDATA[2018-05-31 14:14:39 - [TEST_CASE][ERROR] - Test Cases/Web/DIGIBANKSG-1: Test Cases/Web/DIGIBANKSG-1 FAILED because (of) Variable 'WebUI' is not defined for test case.
+
+2018-05-31 14:14:40 - [TEST_STEP][PASSED] - Statement - WebUI.comment("Feature: Customer Login"): null]]></system-out>
+         <system-err><![CDATA[2018-05-31 14:14:39 - [TEST_CASE][ERROR] - Test Cases/Web/DIGIBANKSG-1: Test Cases/Web/DIGIBANKSG-1 FAILED because (of) Variable 'WebUI' is not defined for test case.]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-31 14:14:39 - [TEST_SUITE][ERROR] - JIRAIntegration: Test Cases/Web/DIGIBANKSG-1 FAILED because (of) Variable 'WebUI' is not defined for test case.]]></system-out>
+      <system-err><![CDATA[2018-05-31 14:14:39 - [TEST_SUITE][ERROR] - JIRAIntegration: Test Cases/Web/DIGIBANKSG-1 FAILED because (of) Variable 'WebUI' is not defined for test case.]]></system-err>
+   </testsuite>
+</testsuites>

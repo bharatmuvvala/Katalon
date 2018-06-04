@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DigiBankSG_Login" time="98" tests="1" failures="0" errors="0">
+   <testsuite name="DigiBankSG_Login" tests="1" failures="0" errors="0" time="98" timestamp="2018-05-25 17:41:07" hostname="SRAVANIBHARAT - DESKTOP-7OG2TPC" id="Test Suites/DigiBankSG_Login">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 8.1.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\Katalon Projects\\DigiBank_Demo\\Reports\\DigiBankSG_Login\\20180525_174105"/>
+         <property name="logFiles" value="G:\\Katalon Projects\\DigiBank_Demo\\Reports\\DigiBankSG_Login\\20180525_174105\\appium.log, G:\\Katalon Projects\\DigiBank_Demo\\Reports\\DigiBankSG_Login\\20180525_174105\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="SRAVANIBHARAT - DESKTOP-7OG2TPC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.0"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="192.168.43.119"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 8.1.0)"/>
+         <property name="deviceOSVersion" value="8.1.0"/>
+      </properties>
+      <testcase name="Test Cases/DigibankSG_Login_Module/DigiBankSG_Login_TC001_BlankUserName_ErrorValidation" classname="Test Cases/DigibankSG_Login_Module/DigiBankSG_Login_TC001_BlankUserName_ErrorValidation" status="PASSED">
+         <system-out><![CDATA[2018-05-25 17:41:07 - [TEST_CASE][PASSED] - Test Cases/DigibankSG_Login_Module/DigiBankSG_Login_TC001_BlankUserName_ErrorValidation: Test Cases/DigibankSG_Login_Module/DigiBankSG_Login_TC001_BlankUserName_ErrorValidation
+
+2018-05-25 17:41:08 - [TEST_STEP][PASSED] - startApplication: Started app at: 'G:\APK Files\DBS digibank SG_v2.0.002_apkpure.com.apk'
+
+2018-05-25 17:41:48 - [MESSAGE][PASSED] - Started app at: 'G:\APK Files\DBS digibank SG_v2.0.002_apkpure.com.apk'
+
+2018-05-25 17:41:48 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/DigiBankSG_Landing_OR/LandingPageFirstTimeUse_btn_SeeWhatsNew'
+
+2018-05-25 17:41:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DigiBankSG_Landing_OR/LandingPageFirstTimeUse_btn_SeeWhatsNew'
+
+2018-05-25 17:41:56 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-25 17:42:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-25 17:42:01 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/DigiBankSG_Landing_OR/LandingPageFirstTimeUse_img_View5'
+
+2018-05-25 17:42:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DigiBankSG_Landing_OR/LandingPageFirstTimeUse_img_View5'
+
+2018-05-25 17:42:03 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-25 17:42:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-25 17:42:08 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/DigiBankSG_Landing_OR/LandingPageFirstTimeUse_txtview_StartNow'
+
+2018-05-25 17:42:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DigiBankSG_Landing_OR/LandingPageFirstTimeUse_txtview_StartNow'
+
+2018-05-25 17:42:09 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/DigiBankSG_Landing_OR/LandingPage_txtview_Login'
+
+2018-05-25 17:42:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DigiBankSG_Landing_OR/LandingPage_txtview_Login'
+
+2018-05-25 17:42:27 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/DigiBankSG_Login_OR/LoginPage_txtedit_UserID'
+
+2018-05-25 17:42:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DigiBankSG_Login_OR/LoginPage_txtedit_UserID'
+
+2018-05-25 17:42:33 - [TEST_STEP][PASSED] - setText: Text '' has been set to element 'Object Repository/DigiBankSG_Login_OR/LoginPage_txtedit_UserID'
+
+2018-05-25 17:42:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 17:42:35 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/DigiBankSG_Login_OR/LoginPage_txtedit_UserID'
+
+2018-05-25 17:42:35 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-05-25 17:42:36 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-05-25 17:42:36 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/DigiBankSG_Login_OR/LoginPage_txtedit_PIN'
+
+2018-05-25 17:42:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 17:42:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DigiBankSG_Login_OR/LoginPage_txtedit_PIN'
+
+2018-05-25 17:42:38 - [TEST_STEP][PASSED] - setText: Text '123456' has been set to element 'Object Repository/DigiBankSG_Login_OR/LoginPage_txtedit_PIN'
+
+2018-05-25 17:42:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 17:42:39 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/DigiBankSG_Login_OR/LoginPage_txtedit_PIN'
+
+2018-05-25 17:42:39 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-05-25 17:42:41 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-05-25 17:42:41 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/DigiBankSG_Login_OR/LoginPage_button_Login'
+
+2018-05-25 17:42:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 17:42:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DigiBankSG_Login_OR/LoginPage_button_Login'
+
+2018-05-25 17:42:42 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/DigiBankSG_Login_OR/LoginPage_txtview_InvalidLoginDetails' has attribute 'text' with value 'Sorry, you have entered an invalid User ID. Please try again.'
+
+2018-05-25 17:42:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 17:42:42 - [MESSAGE][PASSED] - Object 'Object Repository/DigiBankSG_Login_OR/LoginPage_txtview_InvalidLoginDetails' has attribute 'text' with value 'Sorry, you have entered an invalid User ID. Please try again.'
+
+2018-05-25 17:42:43 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-05-25 17:42:45 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-25 17:41:07 - [TEST_SUITE][PASSED] - DigiBankSG_Login: Test Cases/DigibankSG_Login_Module/DigiBankSG_Login_TC001_BlankUserName_ErrorValidation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
